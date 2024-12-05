@@ -4,7 +4,7 @@ datetime_str=$(date '+%Y%m%d_%H%M')_$(openssl rand -hex 2)
 
 ## 10-fold Cross Validation
 #python -u run.py --config ../configs/gpt-paper/linguistic_features_different_sets/cross_validation/manual/linguistic_features_gpt_v6_7steps.yaml --runname manual_linguistic_features_gpt_v6_7steps --results_base_dir ${datetime_str}_feature_sets_cv
-python -u run.py --config ../configs/gpt-paper/linguistic_features_different_sets/cross_validation/manual/linguistic_features_gpt_v6_7steps_literature.yaml --runname manual_linguistic_features_gpt_v6_7steps_literature --results_base_dir ${datetime_str}_feature_sets_cv
+#python -u run.py --config ../configs/gpt-paper/linguistic_features_different_sets/cross_validation/manual/linguistic_features_gpt_v6_7steps_literature.yaml --runname manual_linguistic_features_gpt_v6_7steps_literature --results_base_dir ${datetime_str}_feature_sets_cv
 #python -u run.py --config ../configs/gpt-paper/linguistic_features_different_sets/cross_validation/manual/linguistic_features_gpt4o_v6_7steps.yaml --runname manual_linguistic_features_gpt4o_v6_7steps --results_base_dir ${datetime_str}_feature_sets_cv
 #python -u run.py --config ../configs/gpt-paper/linguistic_features_different_sets/cross_validation/manual/linguistic_features_gpt4o_v6_7steps_literature.yaml --runname manual_linguistic_features_gpt4o_v6_7steps_literature --results_base_dir ${datetime_str}_feature_sets_cv
 #python -u run.py --config ../configs/gpt-paper/linguistic_features_different_sets/cross_validation/manual/linguistic_features_literature.yaml --runname manual_linguistic_features_literature --results_base_dir ${datetime_str}_feature_sets_cv
@@ -38,7 +38,7 @@ python -u run.py --config ../configs/gpt-paper/linguistic_features_different_set
 
 ## GPT 3 fine-tuning - results not included in final paper - this was for a first version of this paper, at a time when GPT-4o was not available yet
 #python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-google-cv.yaml --runname gpt-finetuned-google-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_finetuned
-python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-google-test_on_testset.yaml --runname gpt-finetuned-google-test_on_testset --results_base_dir ${datetime_str}_results_for_paper_gpt_finetuned
+#python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-google-test_on_testset.yaml --runname gpt-finetuned-google-test_on_testset --results_base_dir ${datetime_str}_results_for_paper_gpt_finetuned
 #python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-manual-cv.yaml --runname gpt-finetuned-manual-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_finetuned
 #python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-manual-test_on_testset.yaml --runname gpt-finetuned-manual-test_on_testset --results_base_dir ${datetime_str}_results_for_paper_gpt_finetuned
 #python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-whisper-cv.yaml --runname gpt-finetuned-whisper-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_finetuned
@@ -54,7 +54,7 @@ python -u run.py --config ../configs/gpt-paper/gpt-finetuned/gpt-finetuned-googl
 
 ## Extra results: GPT zero shot prediction
 #python -u run.py --config ../configs/gpt-paper/gpt-zeroshot/gpt-4o-zeroshot-google-cv.yaml --runname gpt-4o-zeroshot-google-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_zeroshot
-python -u run.py --config ../configs/gpt-paper/gpt-zeroshot/gpt-4o-zeroshot-manual-cv.yaml --runname gpt-4o-zeroshot-manual-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_zeroshot
+#python -u run.py --config ../configs/gpt-paper/gpt-zeroshot/gpt-4o-zeroshot-manual-cv.yaml --runname gpt-4o-zeroshot-manual-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_zeroshot
 #python -u run.py --config ../configs/gpt-paper/gpt-zeroshot/gpt-4o-zeroshot-whisper-cv.yaml --runname gpt-4o-zeroshot-whisper-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_zeroshot
 #python -u run.py --config ../configs/gpt-paper/gpt-zeroshot/gpt-zeroshot-google-cv.yaml --runname gpt-zeroshot-google-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_zeroshot
 #python -u run.py --config ../configs/gpt-paper/gpt-zeroshot/gpt-zeroshot-manual-cv.yaml --runname gpt-zeroshot-manual-cv --results_base_dir ${datetime_str}_results_for_paper_gpt_zeroshot
