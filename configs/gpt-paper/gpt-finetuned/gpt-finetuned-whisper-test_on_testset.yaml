@@ -1,0 +1,9 @@
+name: "GPT3 on whisper"
+model: "GPT Finetuning"
+data: "ADReSS_with_PITT_audio"
+cv_splits: 1
+preprocessors:
+  - "PAR segmentation"
+  - "ASR whisper"
+config_data:
+  keep_terminators: True
