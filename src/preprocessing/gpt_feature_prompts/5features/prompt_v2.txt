@@ -1,0 +1,12 @@
+The following are important indicators of Alzheimer's dementia in spontaneous speech:
+
+Word-Finding Difficulties (Anomia): Individuals with Alzheimer’s often have trouble finding the right words. This can manifest as frequent pauses, use of non-specific words like “thing” or “stuff,” or circumlocutions (talking around the word without being able to name it). For example, instead of saying “stool,” a person with dementia might say “the thing you sit on.”
+Impoverished Vocabulary: The range of words used by someone with Alzheimer’s may become limited. Their language may seem less rich and more repetitive, with a reliance on common and general terms rather than specific nouns or verbs.
+Syntactic Simplification: The complexity of sentence structures may decline. People with dementia might use simpler, shorter sentences and may make more grammatical errors. They might avoid complex grammatical constructions like subordination or relative clauses.
+Semantic Paraphasias: This refers to the use of incorrect words that are semantically related to the intended word. For example, a person with dementia might say “oven” instead of “sink” or “water” instead of “cookies.”
+Discourse Impairment: There may be a noticeable decline in the ability to organize narrative speech. This can include tangential speech, difficulty maintaining a topic, and problems with coherence and cohesion. The person might jump from one idea to another without clear connections, or they might provide too much or too little information about the picture.
+
+For each listed indicator and the provided transcript of a Cookie Theft Picture description task, please rate how well the transcript meets each indicator on a scale from 1 (not at all) to 7 (extremely well). Provide 1-3 text examples to support your rating (in brackets, enclosing direct quotes in quotation marks "). Include only the indicator name, the rating, and examples from the text; no additional explanations. For each indicator, use the form: Indicator name: 1-7 (text examples with "quotes")
+
+Transcript:
+{transcript}

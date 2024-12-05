@@ -1,0 +1,9 @@
+name: "GPTZeroShot on googles"
+model: "GPTZeroShot"
+data: "ADReSS_with_PITT_audio"
+cv_splits: 10
+preprocessors:
+  - "PAR segmentation"
+  - "ASR google_speech"
+config_data:
+  keep_terminators: True

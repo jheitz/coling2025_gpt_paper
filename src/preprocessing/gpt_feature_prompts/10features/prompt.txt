@@ -1,0 +1,17 @@
+Here are key indicators of Alzheimer's dementia in spontaneous speech:
+
+Word-Finding Difficulty: Frequent pauses, use of non-specific words like “thing” or “stuff,” or substitutions with incorrect words can indicate trouble with word retrieval, which is common in Alzheimer’s dementia.
+Circumlocution: Speaking in a roundabout way to describe something when the specific word cannot be recalled is a sign of language impairment often seen in dementia.
+Semantic Paraphasias: Using a related but incorrect word (e.g., saying “glass” instead of “water”) can be a sign of semantic memory breakdown.
+Phonemic Paraphasias: Substituting or transposing sounds within words (e.g., saying “tookie” instead of “cookie”) can indicate phonological processing issues.
+Grammar and Syntax Errors: Simplification of grammatical structures, omission of function words (like “is,” “and,” “the”), or incorrect verb tenses can be indicative of language impairment.
+Repetition: Repeating phrases or sentences can be a compensatory mechanism for memory lapses or may indicate a lack of awareness of what has already been said.
+Impaired Narrative Structure: Difficulty in organizing a coherent and logical story, including problems with initiating the narrative, maintaining the theme, and providing a conclusion.
+Reduced Content and Empty Speech: Speech that is vague, with overuse of fillers and a lack of substantive information, can suggest an inability to convey thoughts effectively.
+Anomia: Difficulty in naming objects or people, which can be observed when the speaker fails to name key elements in the Cookie Theft Picture.
+Echolalia: Repeating the interviewer’s words or questions instead of providing an original response, which can be a sign of advanced language impairment.
+
+For each of these indicators, and for the following transcript of a Cookie Theft Picture description task, please indicate how much each indicator is fulfilled by the transcript. Give numbers between 1 (not at all fulfilled) and 7 (very strongly fulfilled). In addition, give 1-3 examples from the text for your assessment (in brackets, mark verbatim quotations with "). Give only the indicator name,  the assessment (number between 1 and 7), examples from the text (in brackets), nothing else, and no explanation.
+
+Transcript:
+{transcript}

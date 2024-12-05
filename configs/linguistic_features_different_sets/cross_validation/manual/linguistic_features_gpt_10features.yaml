@@ -1,0 +1,19 @@
+name: "RandomForest linguistic features"
+model: "RandomForest"
+data: "ADReSS_manual_transcripts"
+cv_splits: 10
+store_model: False
+config_data:
+  keep_terminators: True
+preprocessors:
+  - "Linguistic Features"
+config_linguistic_features:
+  feature_groups:
+    #- "R_features"
+    #- "stanza_features"
+    #- "disfluency_features"
+    #- "liwc_features_all"
+    #- "literature_features"
+    - "gpt_features"
+  gpt_feature_version: 10features
+

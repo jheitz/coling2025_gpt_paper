@@ -1,0 +1,9 @@
+name: "GPT3 on manual"
+model: "GPT Finetuning"
+data: "ADReSS_manual_transcripts"
+cv_splits: 10
+preprocessors: []
+config_data:
+  keep_terminators: True
+config_gpt:
+  model: 'gpt-4o-mini-2024-07-18'

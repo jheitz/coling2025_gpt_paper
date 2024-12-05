@@ -1,0 +1,20 @@
+name: "RandomForest linguistic features"
+model: "RandomForest"
+cv_splits: 10
+store_model: False
+data: "ADReSS_with_PITT_audio"
+preprocessors:
+  - "PAR segmentation"
+  - "ASR google_speech"
+  - "Linguistic Features"
+config_linguistic_features:
+  feature_groups:
+    #- "R_features"
+    #- "stanza_features"
+    #- "disfluency_features"
+    #- "liwc_features_all"
+    - "literature_features"
+    - "gpt_features"
+  gpt_feature_version: 5features
+  gpt_model: 'gpt-4o'
+
